@@ -31,6 +31,10 @@ export default {
   padding: 0;
 }
 
+.container {
+  max-width: 1000px;
+}
+
 ul {
   list-style: none;
 }

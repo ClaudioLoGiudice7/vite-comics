@@ -5,7 +5,8 @@ export default {};
 <template>
     <section class="content">
         <div class="container">
-            --> Content goes here &lt;-- </div>
+            --> Content goes here &lt;--
+        </div>
     </section>
 </template>
 

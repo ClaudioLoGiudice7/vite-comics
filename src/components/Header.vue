@@ -77,12 +77,41 @@ export default {
                     <a :href="link.link">{{ link.text }}</a>
                 </li>
             </ul>
+
         </div>
     </header>
 </template>
 
 <style lang="scss" scoped>
-header {
-    background-color: #f5f5f5;
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 75px;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 10px;
+
+        li {
+            font-weight: bolder;
+
+            a {
+                text-decoration: none;
+                color: #4f5360;
+
+                &hover {
+                    text-decoration: underline;
+                }
+            }
+
+        }
+    }
 }
 </style>

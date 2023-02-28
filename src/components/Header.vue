@@ -84,10 +84,10 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-    margin: auto;
-    display: flex;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 
     img {
         width: 75px;
@@ -102,11 +102,12 @@ export default {
         li {
             font-weight: bolder;
 
+
             a {
                 text-decoration: none;
                 color: #4f5360;
 
-                &hover {
+                &:hover {
                     text-decoration: underline;
                 }
             }

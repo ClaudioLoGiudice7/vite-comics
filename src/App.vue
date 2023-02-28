@@ -25,14 +25,37 @@ export default {
 </template>
 
 <style lang="scss">
-* {
+/* PRESET */
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+* {
   margin: 0;
   padding: 0;
+  font: inherit;
 }
+
+body {
+  min-height: 100vh;
+}
+
+img,
+svg,
+picture,
+video {
+  max-width: 100%;
+}
+
+/* Utils */
 
 .container {
   max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
 }
 
 ul {

@@ -43,7 +43,6 @@ export default {};
         align-items: center;
         color: #fff;
         height: 120px;
-        // padding-left: 165px;
         margin: auto;
 
         .img-span-container {
